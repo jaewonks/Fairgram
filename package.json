@@ -1,0 +1,11 @@
+{
+  "name": "Fairgram",
+  "version": "1.0.0",
+  "description": "Instagram clone with React",
+  "main": "index.js",
+  "repository": "https://github.com/jaewonks/Fairgram.git",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}

@@ -5,12 +5,17 @@
   "repository": "https://github.com/jaewonks/Fairgram.git",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "graphql-yoga": "^1.18.3"
   },
   "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec npx babel-node src/server.js"
   }
 }
